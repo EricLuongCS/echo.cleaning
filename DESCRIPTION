@@ -1,0 +1,17 @@
+Package: echo.cleaning
+Type: Package
+Title: Echo Cleaning Functions
+Version: 0.1.0
+Author: Eric Luong
+Maintainer: Eric Luong <eric.luong@cshs.org>
+Description: Building functions to clean echo data. Currently, there
+    are functions that check for high & low values and outliers among
+    duplicates.
+License: Cedars-Sinai
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tidyverse,
+    stringr,
+    crayon
+RoxygenNote: 7.0.0
